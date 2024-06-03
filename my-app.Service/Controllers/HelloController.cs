@@ -6,6 +6,8 @@ namespace my_app.Service.Controllers
     [Route("[controller]")]
     public class HelloController : ControllerBase
     {
+         static HttpClient client = new HttpClient(); 
+         
         [HttpGet]
         [Route("hello4")]
         public IActionResult GetHello4()
