@@ -7,7 +7,7 @@ namespace my_app.Service.Controllers
     public class HelloController : ControllerBase
     {
         [HttpGet]
-        [Route("hello")]
+        [Route("hello4")]
         public IActionResult GetHello()
         {
             return Ok("Hello, World!");
@@ -17,7 +17,7 @@ namespace my_app.Service.Controllers
         [Route("hello3")]
         public IActionResult GetHello()
         {
-            return Ok("Hello, World!");
+            return Ok("Hello, Maxim!");
         }
     }
 }
