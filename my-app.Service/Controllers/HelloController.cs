@@ -12,5 +12,12 @@ namespace my_app.Service.Controllers
         {
             return Ok("Hello, World!");
         }
+
+        [HttpGet]
+        [Route("hello3")]
+        public IActionResult GetHello()
+        {
+            return Ok("Hello, World!");
+        }
     }
 }
