@@ -7,11 +7,11 @@ spec:
     - name: GIT_URL
       value: "https://github.com/galinareshko/dotnet-app.git"
     - name: REGISTRY
-      value: user6
+      value: galinareshko
     - name: IMAGE_NAME
       value: dotnet-app
     - name: IMAGE_TAG
-      value: v0
+      value: v1
     - value: user6-application
   pipelineRef:
     name: user6-dotnet-app
